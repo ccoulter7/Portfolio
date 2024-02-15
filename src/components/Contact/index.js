@@ -60,7 +60,7 @@ const Contact = () => {
                                         required></input>
                                 </li>
                                 <li>
-                                    <input placeholder="Subject"
+                                    <input placeholder='Subject'
                                         type="text"
                                         name="subject"
                                         required />
@@ -71,7 +71,7 @@ const Contact = () => {
                                         required></textarea>
                                 </li>
                                 <li>
-                                    <input type='submit' className='flat-button' value="SEND"></input>
+                                    <input type='submit' className='flat-button' value='SEND'></input>
                                 </li>
                             </ul>
                         </form>
@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
 
                 <div className='map-wrap'>
-                    <MapContainer style={{ height: "700px", width: "700px", borderRadius: "20px", marginTop: "70px", marginLeft: "50px" }} center={[54.515, -5.88]} zoom={14}>
+                    <MapContainer style={{ height: "80%", width: "80%", borderRadius: "20px", marginTop: "70px", marginLeft: "50px" }} center={[54.515, -5.88]} zoom={14}>
                         <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
                         <Circle center={[54.515, -5.88]} radius={500} color='#27b5db'>
                             <Popup>I live around here!</Popup>
