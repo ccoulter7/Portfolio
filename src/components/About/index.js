@@ -31,7 +31,8 @@ const About = () => {
                     </p>
                     <p></p>
                     <p>You can download my CV&nbsp;
-                        <a href="https://docs.google.com/document/d/11Ht9bLwZ3pCBWT5l-gBAm1JMjjnCZ4jym_YsgyqRE6k/edit" download style={{ textDecoration: 'none' }}>here.</a></p>
+                        <a href="https://www.cathalcoulter.com/Cathal%20Coulter%20CV.pdf?v=2302241203" download style={{ textDecoration: 'none' }}>here.</a>
+                    </p>
                 </div>
                 <Timelime />
             </div >
